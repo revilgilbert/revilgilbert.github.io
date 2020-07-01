@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <title>Cameras List</title>
+    </head>
+    <body class="MB">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-sm navbar-light nav">
+            <a class="navbar-brand" href="index.html" style="color:rgb(150,150,150)">HOME</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="digital.html" style="color:rgb(150,150,150)">Digital
+                        <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="film.html" style="color:rgb(150,150,150)">Film</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:rgb(150,150,150)">Jump to Camera</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color:rgb(150,150,150)" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="font-size:12px; font-family:sans-serif">
+                            <div class="dropdown-header">Digital</div>
+                            <a class="dropdown-item" href="#C1">Sony DSCU-20</a>
+                            <a class="dropdown-item" href="#C2">Sony α200</a>
+                            <a class="dropdown-item" href="#C3">Sony α77</a>
+                            <a class="dropdown-item" href="#C4">Fujifilm X-T1</a>
+                            <a class="dropdown-item" href="#C5">Olympus E-PL6</a>
+                            <div class="dropdown-divider"></div>
+                            <div class="dropdown-header">35mm Film SLR</div>
+                            <a class="dropdown-item" href="#C6">Minolta X-700</a>
+                            <a class="dropdown-item" href="#C7">Nikon F3</a>
+                            <a class="dropdown-item" href="#C8">Canon AE-1 Program</a>
+                            <a class="dropdown-item" href="#C9">Nikon F90</a>
+                            <a class="dropdown-item" href="#C10">Nikon F4</a>
+                            <a class="dropdown-item" href="#C11">Nikon F-801</a>
+                            <a class="dropdown-item" href="#C12">Mamiya ZE-2</a>
+                            <div class="dropdown-header">35mm Film Rangefinder</div>
+                            <a class="dropdown-item" href="#C13">Olympus 35 SP</a>
+                            <a class="dropdown-item" href="#C14">Minolta 7s</a>
+                            <div class="dropdown-header">Medium Format Film</div>
+                            <a class="dropdown-item" href="#C15">Yashica Mat 124G</a>
+                            <a class="dropdown-item" href="#C16">Mamiya RB67 ProS</a>
+                            <a class="dropdown-item" href="#C17">Kershaw Raven</a>
+                            <div class="dropdown-header">Others</div>
+                            <a class="dropdown-item" href="#C18">Fujifilm Instax mini 90</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Body -->
+        <div class="row justify-content-center">
+            <div id="MainCont" class="col-10 row">
+                <div class="col-10"><h4>DIGITAL CAMERAS<br><br></h4></div>
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C1" class="jumpto"></span>
+                    <img src="Res/DSCU20-r.jpg" alt="DSCU20" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Sony DSC-U20</h3>
+                    <p>Resolution: 2MP</p>
+                    <p>Sensor Size: 1/2.7"</p>
+                    <p>Video Mode: 480p</p>
+                    <p>Display: 1" LCD</p>
+                    <p>Year Released: 2002</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C2" class="jumpto"></span>
+                    <img src="Res/A200-r.jpg" alt="a200" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Sony α200</h3>
+                    <p>Resolution: 10.2MP</p>
+                    <p>Sensor Format: APSC</p>
+                    <p>Display: 2.7" TFT LCD</p>
+                    <p>Year Released: 2008</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C3" class="jumpto"></span>
+                    <img src="Res/A77-r.jpg" alt="a77" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Sony α77</h3>
+                    <p>Resolution: 24MP</p>
+                    <p>Video Mode: up to Full HD 60p</p>
+                    <p>Sensor Format: APSC</p>
+                    <p>Viewfinder: 1.3cm OLED Electronic</p>
+                    <p>Display: 3" tilt LCD</p>
+                    <p>Year Released: 2011</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C4" class="jumpto"></span>
+                    <img src="Res/XT1-r.jpg" alt="XT1" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Fujifilm X-T1</h3>
+                    <p>Resolution: 16MP</p>
+                    <p>Video Mode: up to Full HD 60p</p>
+                    <p>Sensor Format: APSC</p>
+                    <p>Viewfinder: Electronic</p>
+                    <p>Display: 3" tilt LCD</p>
+                    <p>Year Released: 2014</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C5" class="jumpto"></span>
+                    <img src="Res/EPL6-r.jpg" alt="EPL6" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Olympus E-PL6</h3>
+                    <p>Resolution: 16MP</p>
+                    <p>Video Mode: up to Full HD 30p</p>
+                    <p>Sensor Format: Micro four-thirds</p>
+                    <p>Display: 3" tilting touch-screen LCD</p>
+                    <p>Year Released: 2013</p>
+                </div>
+                <div class="col-12"><br></div>
+                <div class="col-12 dropdown-divider"></div>
+                <div class="col-12"><br></div>
+
+                <div class="col-10"><h4>FILM CAMERAS<br><br></h4></div>
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C6" class="jumpto"></span>
+                    <img src="Res/X700G-r.jpg" alt="X700G" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Minolta X700</h3>
+                    <p>Format: 35mm SLR</p>
+                    <p>Focus: Manual</p>
+                    <p>Year Released: 1981</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C7" class="jumpto"></span>
+                    <img src="Res/F3-r.jpg" alt="F3" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Nikon F3</h3>
+                    <p>Format: 35mm SLR</p>
+                    <p>Focus: Manual</p>
+                    <p>Year Released: 1980</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C8" class="jumpto"></span>
+                    <img src="Res/AE1P-r.jpg" alt="AE1P" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Canon AE-1 Program</h3>
+                    <p>Format: 35mm SLR</p>
+                    <p>Focus: Manual</p>
+                    <p>Year Released: 1981</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C9" class="jumpto"></span>
+                    <img src="Res/F90-r.jpg" alt="F90" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Nikon F90x</h3>
+                    <p>Format: 35mm SLR</p>
+                    <p>Focus: Automatic</p>
+                    <p>Year Released: 1994</p>
+                </div>
+                <div class="col-12"><br></div>
+                
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C10" class="jumpto"></span>
+                    <img src="Res/F4-r.jpg" alt="F4" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Nikon F4</h3>
+                    <p>Format: 35mm SLR</p>
+                    <p>Focus: Automatic</p>
+                    <p>Year Released: 1988</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C11" class="jumpto"></span>
+                    <img src="Res/F801-r.jpg" alt="F801" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Nikon F-801</h3>
+                    <p>Format: 35mm SLR</p>
+                    <p>Focus: Automatic</p>
+                    <p>Year Released: 1988</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C12" class="jumpto"></span>
+                    <img src="Res/ZE2-r.jpg" alt="ZE2" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Mamiya ZE-2</h3>
+                    <p>Format: 35mm SLR</p>
+                    <p>Focus: Manual</p>
+                    <p>Year Released: 1980</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C13" class="jumpto"></span>
+                    <img src="Res/35SP-r.jpg" alt="35SP" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Olympus 35 SP</h3>
+                    <p>Format: 35mm Rangefinder</p>
+                    <p>Focus: Manual</p>
+                    <p>Year Released: 1969</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C14" class="jumpto"></span>
+                    <img src="Res/Himatic7s-r.jpg" alt="Himatic7s" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Minolta Hi-matic 7s</h3>
+                    <p>Format: 35mm Rangefinder</p>
+                    <p>Focus: Manual</p>
+                    <p>Year Released: 1966</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C15" class="jumpto"></span>
+                    <img src="Res/YashicaMat-r.jpg" alt="YashicaMat" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Yashica Mat 124G</h3>
+                    <p>Format: Medium Format Twin Lens Reflex</p>
+                    <p>Year Released: 1957</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C16" class="jumpto"></span>
+                    <img src="Res/RB67-r.jpg" alt="RB67" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Mamiya RB67 Pro-S</h3>
+                    <p>Format: Medium Format SLR</p>
+                    <p>Year Released: 1974</p>
+                </div>
+                <div class="col-12"><br></div>
+
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C17" class="jumpto"></span>
+                    <img src="Res/Raven-r.jpg" alt="Raven" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Kershaw Raven</h3>
+                    <p>Format: Medium Format Folding</p>
+                    <p>Year Released: 1947</p>
+                </div>
+                <div class="col-12"><br></div>
+                <div class="col-12 dropdown-divider"></div>
+                <div class="col-12"><br></div>
+
+                <div class="col-10"><h4>OTHERS<br><br></h4></div>
+                <div class="col-7 pl-0 pr-0">
+                    <span id="C18" class="jumpto"></span>
+                    <img src="Res/Instax-r.jpg" alt="Instax" style="max-width:100%">
+                </div>
+                <div class="col-5">
+                    <h3>Fujifilm Instax Mini 90</h3>
+                    <p>Format: Instax Mini</p>
+                    <p>Year Released: 2013</p>
+                </div>
+                <div class="col-12"><br></div>
+                <p style="margin-top:20px; font-size:9pt; color: rgb(150,150,150)">Sources: dpreview.com, kenrockwell.com, wikipedia.com</p>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div>
+                <div><a href="mailto:revil.gilbert@gmail.com">Email me!</a></div>
+                <div>CS50W June 2020</div>
+            </div>
+        </footer>
+    </body>
+</html>
